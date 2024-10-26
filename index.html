@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        #btn-alert {
+            border: none;
+            border-radius: 5px;
+            padding: 7px 10px;
+            background-color: rgb(37, 116, 226);
+            font-size: 1.3em;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.2s;
+            position: fixed;
+            left: 45%;
+            top: 45%;
+        }
+        
+        #btn-alert:hover {
+            opacity: 0.8;
+        }
+        
+        #btn-alert:focus {
+            outline: rgb(37, 116, 226) solid 3px;
+            outline-offset: 3px;
+        }
+        
+        @media (max-width: 576px) {
+            #btn-alert {
+                left: 38%;
+            }
+        }
+    </style>
+
+    <title>Happy Birthday </title>
+</head>
+
+<body>
+
+ <audio src="aba.mp3" controls autoplay="autoplay"></audio>
+ 
+    <button id="btn-alert" onclick="munculinAlert()">play dulu musik nya yaaa baru klik ini !</button>
+     
+
+    <script>
+        async function munculinAlert() {
+            await Swal.fire('Hai NAYLA KAMALA')
+            await Swal.fire('Selamat ulang tahun ya...')
+            
+            await Swal.fire({
+                title: 'Happy Sweet Seventeen 17th',
+                text:'Semoga panjang umur, sehat selalu dan dilancarkan semua aktifitasnya',
+                imageUrl: '1.jpg',
+                imageWidth: 400,
+                imageHeight: 300,
+                imageAlt: 'Gambar kue ulang tahun',
+            })
+                 await Swal.fire({
+                title: 'Hari ini adalah hari spesial bagimu',
+                text: 'Aku tahu dari sekian banyak orang yang mengucapkan selamat ulang tahun untukmu aku ingin menjadi salah satu diantaranya ',
+                imageUrl: '2.jpg',
+                imageWidth: 400,
+                imageHeight: 300,
+                imageAlt: 'Gambar kue ulang tahun',
+            })
+            await Swal.fire({
+              title: 'Pada malam yang indah ini izinkan aku mengucapkan selamat ulang tahun untukmu',
+              text: 'Maaf tidak ku ucapkan secara langsung di depanmu tidak juga kuberi kalimat-kalimat indah, cuma tiga kata saja selamat ulang tahun iya itu saja',
+              imageUrl: '3.jpg',
+              imageWidth: 400,
+              imageHeight: 300,
+              imageAlt: 'Gambar kue ulang tahun',
+            })
+            await Swal.fire({
+              title: 'Hanya kutuliskan dengan kalimat sederhana dengan perasaan yang luar biasa',
+              text: 'Tapi dibalik kalimat itu  ada harapan dan doa terbaik untukmu.Selamat ulang tahun  semoga hari ini kau menjadi orang paling bahagia di dunia',
+              imageUrl: '4.jpg',
+              imageWidth: 400,
+              imageHeight: 300,
+              imageAlt: 'Gambar kue ulang tahun',
+            })
+            await Swal.fire({
+              title: '',
+              text: 'Selamat bertambah usia perempuan kuat, perempuan cantik, perempuan cerdas, perempuan baik, perempuan manis, perempuan yang suka hal-hal sederhana, perempuan yang selalu tersenyum, perempuan yang terkadang menjadi seorang komedian untuk dirinya dan orang lain, perempuan yang suka hal-hal yang melankolis, perempuan yang kalau sedih dan senang larinya ke sajak. Semoga keberkahan selalu menyertai di setiap langkahmu, dan tetaplah bahagia.',
+              imageUrl: '5.jpg',
+              imageWidth: 400,
+              imageHeight: 300,
+              imageAlt: 'Gambar kue ulang tahun',
+            })
+            await Swal.fire('HAI ,jangan pernah lupa ya buat jaga kesehatanmu, jangan terlalu sering makan pedas yaa, di jaga kesehatan nya , kalo nangis jangan terlalu lama yaa, semangat buat semua hal berat yang selalu terjadi sama kamu, kamu kuat dan kamu bisa lalu in nya ')
+            await Swal.fire('HAI ,  Jangan terlalu sering begadang yaa, maaf yaa  kadang  aku pernah bikin kamu emosi atau apa pun itu yang tidak mengenakkan, semangat buat hari-hari di masa depan mu ')
+            await Swal.fire('Sekali lagi selamat ulang tahun yaa')
+        }
+    </script>
+    
+
+</body>
+
+</html>
